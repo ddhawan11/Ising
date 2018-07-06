@@ -5,4 +5,4 @@ install:
  - pip install numpy
 
 script:
- - pytest
+ - python -m test.test1 FirstTest
